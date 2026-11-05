@@ -1,0 +1,518 @@
+/* LINK FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IT+Trad:wght@100..400&display=swap');
+/* GOOGLE FONTES */
+/* font-family: "Redaction 10", serif;
+ font-family: "Playwrite IT Trad", cursive; */
+
+*
+
+
+
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fdeaf1;
+
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 80px;
+    width:100%;
+    background:rgba(255, 109, 194, 0.295);
+
+
+}
+nav img{
+    padding: 10px;
+    width: 160px
+   
+}
+
+
+
+
+nav ul{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    list-style:none;
+}
+
+nav a{
+   text-decoration:none;
+   color:black;
+   font-weight:500;
+}
+
+header{
+
+    height:100vh;
+
+    background:rgb(255, 213, 238);
+
+    background-size:cover;
+    background-position:center;
+}
+
+.alert-success{
+    padding: 100px;
+}
+
+.container-fluid {
+    background:rgba(255, 109, 194, 0.295);
+    color: #392b31;
+    padding: 23px 0;
+    border-bottom: 1px solid #f0dce3;
+    
+}
+
+.container-fluid .col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #8d5268;
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    
+}
+
+.container-fluid i {
+    font-size: 1.15rem;
+}
+
+.section-space {
+    padding-top: 88px;
+    padding-bottom: 88px;
+   
+    
+}
+
+.span-promo{
+    display: flex;
+}
+
+
+
+
+
+
+/* produtos aba inicial */
+
+.produto-card {
+    background: #fff;
+    border: 1px solid #f2e7eb;
+    transition: transform .25s, box-shadow .25s;
+    
+
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+
+}
+
+
+
+.produto-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+    background: #fff9fb;
+    padding: 15px
+}
+
+
+.produto-info {
+    padding: 17px 17px 20px
+}
+
+.produto-info h3 {
+    font-size: .83rem;
+    font-weight: 600;
+    margin: 0 0 7px
+}
+
+.produto-preco {
+    
+    font-weight: 700;
+}
+
+.lista{
+    display:flex
+}
+
+
+
+
+
+
+
+.section-heading {
+    text-align: center;
+    margin: 0 auto 42px;
+    max-width: 650px
+}
+
+
+.section-heading h2,
+.story-band h2,
+.newsletter-section h2,
+.contact-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.4rem, 4vw, 3.5rem);
+    font-weight: 500;
+    line-height: 1.05;
+    margin: 0 0 12px
+}
+
+.section-heading p,
+.story-band p,
+.newsletter-section p {
+    color: var(--muted);
+    margin: 0
+}
+
+.category-card {
+    display: block;
+    text-decoration: none;
+    background: var(--pink-soft);
+    overflow: hidden;
+    position: relative
+}
+
+.category-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .6s
+}
+
+.category-card:hover img {
+    transform: scale(1.045)
+}
+
+.category-card span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 18px;
+    background: #fff;
+    color: #392b31;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.55rem
+}
+
+.category-card span i {
+    font-size: 1rem;
+    color: #bd718d;
+}
+
+
+.btn-laylla {
+    background:  #bd718d;
+    border: 1px #bd718d;
+    color: white;
+    border-radius: 2px;
+    padding: 13px 25px;
+    font-size: .75rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .25s
+}
+
+.btn-laylla:hover {
+    background:  #8d5268;
+    border-color:  #8d5268;
+    color: #fff;
+    transform: translateY(-2px)
+}
+
+
+.Cabecalho{
+
+    height:100%;
+    width: 40%;
+    margin-right: 100px;
+    display:flex;
+    align-items:center;
+    padding-left:100px;
+}
+
+
+
+.comprar{
+
+    padding:18px 40px;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    font-size:1rem;
+    background:#f7c4d6;
+    transition:.4s;
+}
+
+.comprar:hover{
+transform:translateY(-5px);
+}
+
+
+
+
+
+.sobre{
+   display: flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    padding:100px 80px;
+}
+
+.sobre img{
+
+      width: 300px;
+    height: 240px;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.sobre img:hover{
+      background-color: #454c52;
+ 
+  transform:translateY(-10px);
+
+}
+
+.sobre h2{
+    font-family: "Playwrite IT Trad", cursive;
+    color: #8d5268;
+}
+
+
+
+.texto{
+    max-width:500px;
+}
+
+.texto h2{
+
+    font-size:3rem;
+    font-family:'Cormorant Garamond',serif;
+    margin-bottom:20px;
+}
+
+
+
+.promocao {
+    background: linear-gradient(105deg, #a9657e, #d69aaf);
+    color: #fff;
+    padding: 55px 0;
+    
+}
+
+.container-promocao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 30px
+}
+
+.container-promocao h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    margin: 0 0 8px
+}
+
+.container-promocao  p {
+    margin: 0;
+    color: #fff
+}
+
+.container-promocao  .btn {
+    border-radius: 2px;
+    padding: 13px 25px;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    white-space: nowrap
+}
+
+.aneis{
+    padding: 100px;
+    justify-content: center;
+gap: 50px;
+    display: flex;
+}
+
+
+.imagem img{
+
+    width:450px;
+    border-radius:30px;
+    box-shadow:0 15px 30px rgba(0,0,0,.1);
+}
+
+.team-section {
+    background: #fff6f8;
+}
+
+.team-card {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    height: 100%;
+    border: 1px  #f0dce3;
+}
+
+.team-photo-placeholder {
+    height: 210px;
+    background: linear-gradient(145deg, #f7dce5, #fdf2f6);
+    display: grid;
+    place-items: center;
+    color: #c28a9f;
+    font-size: 4rem;
+    margin-bottom: 18px
+}
+
+.team-photo-placeholder{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.team-photo-placeholder img{
+     width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.team-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.55rem
+}
+
+.team-card p {
+    font-size: .77rem;
+    color: var(--muted);
+    margin: 0
+}
+
+.team-instructions {
+    font-size: .75rem;
+    color: #806b74;
+    margin-top: 28px;
+    background: #fff;
+    padding: 14px 18px
+}
+
+.space{
+    padding: 100px;
+}
+
+footer{
+
+     background:#f7d7e2;
+    text-align:center;
+    padding:60px;
+}
+
+footer h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:2.5rem;
+}
+
+
+
+
+
+
+
+/* categorias da pagina de produtos */
+.p{
+    text-decoration: hotpink;
+    padding: 15PX;
+    text-align: center;
+    background-color: #fdeaf1;
+}
+
+.p h2{
+    font-family:serif;
+}
+
+.tabela th {
+    background-color: rgb(255, 135, 223);
+    color: #ff69c3;
+    padding: 5px;
+    text-align: center;
+}
+
+.tabela td {
+    padding: 3px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ff91b9;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    font-family: "Redaction 10", serif;
+}
+
+.cabecalho-simples {
+    height: auto;
+    background: transparent;
+}
+
+.secao-tabela {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+/* Tabela rosa */
+.tabela {
+    --bs-table-bg: #fdeaf1;
+    --bs-table-striped-bg: #f8d1e1;
+    --bs-table-hover-bg: #f4bdd4;
+    --bs-table-border-color: #e8a6c2;
+    color: #66364c;
+}
+
+/* Cabeçalho da tabela */
+.tabela thead th {
+    background-color: #e879ac;
+    color: white;
+}
+
+/* Rodapé da tabela */
+.tabela tfoot td {
+    background-color: #f4bdd4;
+    color: #66364c;
+}
